@@ -1,4 +1,7 @@
-ubuntu
-======
+#################################
+# README.md
+# Version: 01
+# http://hydruid-blog.com/?cat=4
 
-helpful scripts for ubuntu
+Description:
+Helpful scripts for administration and daily use of Ubuntu
