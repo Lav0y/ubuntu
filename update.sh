@@ -1,12 +1,12 @@
-#################################
-# update.sh
-# Version: 01
-# http://hydruid-blog.com/?cat=4
-#
-# Quick script to keep your server/desktop updated
+#!/bin/bash
+#######################################################
+# Version: 01a                                        #
+#######################################################
 
-# Update package lists
+# Update package lists and Install packages
 apt-get update
-
-# Install updated packages and dependencies
 apt-get dist-upgrade -y
+
+# Update package lists and Install packages silently
+#apt-get update 2>&1 /dev/null
+#apt-get dist-upgrade -y 2>&1 /dev/null
