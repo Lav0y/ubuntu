@@ -8,7 +8,8 @@ apt-get update
 apt-get dist-upgrade -y
 apt-get autoremove
 
-PS3='...Reboot Now? (Press 1 or 2): '
+echo && echo "Reboot Now?"
+PS3='(Press 1 or 2): '
 options=("Yes" "No")
 select opt in "${options[@]}"
 do
