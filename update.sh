@@ -15,7 +15,7 @@ select opt in "${options[@]}"
 do
 case $opt in
 	"Yes")
-		echo "do reboot" #	reboot now
+		reboot now
 break
 ;;
 	"No")
