@@ -8,16 +8,16 @@ apt-get update
 apt-get dist-upgrade -y
 apt-get autoremove
 
-PS3='...Reboot Now?: '
-options=("Y)" "N)")
+PS3='...Reboot Now? (Press 1 or 2): '
+options=("Yes" "No")
 select opt in "${options[@]}"
 do
 case $opt in
-	"Y")
-		reboot now
+	"Yes")
+		echo "do reboot" #	reboot now
 break
 ;;
-	"N")
+	"No")
 		echo "...I recommend to reboot after an update!"
 break
 ;;
