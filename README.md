@@ -1,7 +1,7 @@
-#################################
-# README.md
-# Version: 01
-# http://hydruid-blog.com/?cat=4
+#######################################################
+# Version: 02                                         #
+# http://hydruid-blog.com/?cat=4                      #
+#######################################################
 
 Description:
-Helpful scripts for administration and daily use of Ubuntu
+Helpful scripts for administration and daily use of Ubuntu.
