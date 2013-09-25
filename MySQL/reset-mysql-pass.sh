@@ -4,8 +4,7 @@
 # http://hydruid-blog.com/?cat=4                      #
 #######################################################
 
-clear
-echo && echo "Does your MySQL admin account use a password?"
+clear && echo && echo "Does your MySQL admin account use a password?"
 PS3='(Press 1 or 2): '
 options=("Yes" "No")
 select opt in "${options[@]}"
