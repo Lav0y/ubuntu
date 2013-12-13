@@ -3,6 +3,7 @@
 # Version: 01a                                        #
 #  Status: Functional                                 #
 #   Notes: Works until cookie expires                 #
+#    Blog: http://hydruid-blog.com/?p=631             #
 #######################################################
 
 # Script Variables
